@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Pop by Aboud Aslan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="start-screen" id="startScreen">
+            <h1 class="title">Quick Click</h1>
+            <button class="start-btn" onclick="startGame()">PLAY</button>
+        </div>
+
+        <div class="score">Score: <span id="score">0</span></div>
+
+        <div class="game-over" id="gameOver">
+            <h1>Game Over!</h1>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button class="start-btn" onclick="restartGame()">Play Again</button>
+        </div>
+    </div>
+
+    <div class="designer-credit">
+        Designed by Aboud Aslan
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
